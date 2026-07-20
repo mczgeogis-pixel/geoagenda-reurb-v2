@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {"api/**/*.js": {"runtime": "nodejs20.x"}},
+  "rewrites": [
+    {"source": "/painel", "destination": "/painel.html"}
+  ]
+}
